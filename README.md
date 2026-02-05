@@ -1,21 +1,5 @@
 <div align="center">
 
-<!-- HEADER -->
-```
- █████╗ ██╗    ██╗███████╗███████╗ ██████╗ ███╗   ███╗███████╗
-██╔══██╗██║    ██║██╔════╝██╔════╝██╔═══██╗████╗ ████║██╔════╝
-███████║██║ █╗ ██║█████╗  ███████╗██║   ██║██╔████╔██║█████╗  
-██╔══██║██║███╗██║██╔══╝  ╚════██║██║   ██║██║╚██╔╝██║██╔══╝  
-██║  ██║╚███╔███╔╝███████╗███████║╚██████╔╝██║ ╚═╝ ██║███████╗
-╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
-     █████╗ ██╗       ██████╗ ██████╗ ████████╗██╗ ██████╗ █████╗ ██╗     
-    ██╔══██╗██║      ██╔═══██╗██╔══██╗╚══██╔══╝██║██╔════╝██╔══██╗██║     
-    ███████║██║█████╗██║   ██║██████╔╝   ██║   ██║██║     ███████║██║     
-    ██╔══██║██║╚════╝██║   ██║██╔═══╝    ██║   ██║██║     ██╔══██║██║     
-    ██║  ██║██║      ╚██████╔╝██║        ██║   ██║╚██████╗██║  ██║███████╗
-    ╚═╝  ╚═╝╚═╝       ╚═════╝ ╚═╝        ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝
-```
-
 # 🌐 Awesome AI for Optical Communication Networks
 
 <p align="center">
@@ -25,10 +9,11 @@
 <!-- BADGES -->
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+  <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
   <img src="https://img.shields.io/badge/Papers-64+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/YOUR_USERNAME/awesome-ai-optical-communication-network?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/YOUR_USERNAME/awesome-ai-optical-communication-network?style=flat-square&logo=github" alt="Forks">
-  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/awesome-ai-optical-communication-network?style=flat-square" alt="Last Commit">
+  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/awesome-ai-optical-communication-network?style=flat-square&color=purple" alt="Last Commit">
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
 </p>
 
@@ -45,10 +30,16 @@
   <a href="#-graph-neural-networks">GNN</a> •
   <a href="#-deep-reinforcement-learning">DRL</a> •
   <a href="#-transformer--attention">Transformer</a> •
-  <a href="#-failure-detection">Failure</a> •
+  <a href="#-failure-detection--localization">Failure</a> •
   <a href="#-traffic-prediction">Traffic</a> •
-  <a href="#-tools--datasets">Tools</a>
+  <a href="#️-tools--datasets">Tools</a>
 </p>
+
+---
+
+> 📢 **This repository is actively maintained and updated daily with the latest AI/ML papers in optical networking!**
+>
+> ⭐ Star this repo to stay updated with cutting-edge research!
 
 ---
 
