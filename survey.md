@@ -303,3 +303,13 @@ A curated collection of AI/ML research papers for optical networks. Only papers 
 - Abdelli K, et al. **Gated Recurrent Unit based Autoencoder for Optical Link Fault Diagnosis in Passive Optical Networks**. ECOC 2021. [Link](https://doi.org/10.1109/ECOC52684.2021.9605969)
   - *GRU-Autoencoder for fault diagnosis*
 
+
+---
+
+## CNN for Optical Performance Monitoring
+
+### 2019
+
+- Tanimura T, et al. **Convolutional Neural Network-Based Optical Performance Monitoring for Optical Transport Networks**. JOCN, 2019. [Link](https://doi.org/10.1364/jocn.11.000a52)
+  - *CNN for OPM*
+
