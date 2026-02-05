@@ -6,13 +6,37 @@ A curated collection of AI/ML research papers for optical networks. Only papers 
 
 ## Table of Contents
 
+- [End-to-End Deep Learning](#end-to-end-deep-learning)
 - [QoT Estimation with ML](#qot-estimation-with-ml)
 - [Graph Neural Networks](#graph-neural-networks)
+- [LSTM & RNN](#lstm--rnn)
 - [Deep Reinforcement Learning](#deep-reinforcement-learning)
 - [Transfer Learning](#transfer-learning)
 - [Failure Detection with ML](#failure-detection-with-ml)
 - [Traffic Prediction with ML](#traffic-prediction-with-ml)
 - [LLM & Foundation Models](#llm--foundation-models)
+
+---
+
+## End-to-End Deep Learning
+
+### 2021
+
+- Neskorniuk V, et al. **End-to-End Deep Learning of Long-Haul Coherent Optical Fiber Communications via Regular Perturbation Model**. ECOC 2021. [Link](https://doi.org/10.1109/ECOC52684.2021.9605928)
+  - *End-to-end DL for coherent optical*
+
+### 2020
+
+- Karanov B, et al. **Experimental Investigation of Deep Learning for Digital Signal Processing in Short Reach Optical Fiber Communications**. SiPS 2020. [Link](https://doi.org/10.1109/SiPS50750.2020.9195215)
+  - *DL for DSP in short reach*
+
+- Karanov B, et al. **Optical Fiber Communication Systems Based on End-to-End Deep Learning**. arXiv 2020. [Link](https://arxiv.org/abs/2005.08785)
+  - *End-to-end DL systems*
+
+### 2018
+
+- Karanov B, et al. **End-to-end Deep Learning of Optical Fiber Communications**. arXiv 2018. [Link](http://arxiv.org/abs/1804.04097)
+  - *Seminal end-to-end DL paper*
 
 ---
 
@@ -51,6 +75,11 @@ A curated collection of AI/ML research papers for optical networks. Only papers 
 - Gu Z, et al. **Sample-distribution-matching-based transfer learning for QoT estimation**. JOCN, 2023. [Link](https://doi.org/10.1364/JOCN.493053)
   - *Transfer learning*
 
+### 2022
+
+- Kruse LE, et al. **Exact component parameter agnostic QoT estimation using spectral data-driven LSTM in optical networks**. OFC 2022. [Link](https://ieeexplore.ieee.org/document/9748415)
+  - *LSTM for spectral-based QoT estimation*
+
 ### 2021
 
 - Bouda M, et al. **Towards vendor-agnostic real-time optical network design with extended Kalman state estimation and recurrent neural network machine learning**. JOCN, 2021. [Link](https://doi.org/10.1364/jocn.409278)
@@ -78,6 +107,9 @@ A curated collection of AI/ML research papers for optical networks. Only papers 
 
 ### 2022
 
+- Hong Y, et al. **Neural network-assisted decision-making for adaptive routing strategy in optical datacenter networks**. Opt. Switch. Netw., 2022. [Link](https://doi.org/10.1016/j.osn.2022.100677)
+  - *NN for adaptive routing*
+
 - Matzner R, et al. **Ultra-fast Optical Network Throughput Prediction using Graph Neural Networks**. ONDM 2022. [Link](https://doi.org/10.23919/ONDM54585.2022.9782853)
   - *GNN for throughput prediction*
 
@@ -96,6 +128,36 @@ A curated collection of AI/ML research papers for optical networks. Only papers 
 
 - Almasan P, et al. **Deep Reinforcement Learning meets Graph Neural Networks: An optical network routing use case**. arXiv 2019. [Link](http://arxiv.org/abs/1910.07421)
   - *DRL + GNN for routing*
+
+---
+
+## LSTM & RNN
+
+### 2025
+
+- Nourmohammadi F, et al. **Hybrid Spatio-Temporal CNN-LSTM/BiLSTM Models for Blocking Prediction in Elastic Optical Networks**. Network, 2025. [Link](https://doi.org/10.3390/network5040044)
+  - *CNN-LSTM for blocking prediction*
+
+### 2024
+
+- Almawgani AHM. **RNN-LSTM model for reliable optical transmission in flexible switching network systems**. Wirel. Networks, 2024. [Link](https://doi.org/10.1007/s11276-023-03599-9)
+  - *RNN-LSTM for transmission reliability*
+
+- Zhu R, et al. **A load prediction method for data transmission in optical communication networks based on LSTM Model**. CNML 2024. [Link](https://doi.org/10.1145/3701047.3701048)
+  - *LSTM for load prediction*
+
+### 2022
+
+- Cao M, et al. **LSTM Attention Neural-Network-Based Signal Detection for Hybrid Modulated Faster-Than-Nyquist Optical Wireless Communications**. Sensors, 2022. [Link](https://doi.org/10.3390/s22228992)
+  - *LSTM attention for signal detection*
+
+- Kruse LE, et al. **Exact component parameter agnostic QoT estimation using spectral data-driven LSTM**. OFC 2022. [Link](https://ieeexplore.ieee.org/document/9748415)
+  - *LSTM for QoT*
+
+### 2020
+
+- Aibin M. **LSTM for Cloud Data Centers Resource Allocation in Software-Defined Optical Networks**. UEMCON 2020. [Link](https://doi.org/10.1109/UEMCON51285.2020.9298133)
+  - *LSTM for SDN resource allocation*
 
 ---
 
@@ -118,6 +180,11 @@ A curated collection of AI/ML research papers for optical networks. Only papers 
 
 - Almasan P, et al. **Deep Reinforcement Learning meets Graph Neural Networks: An optical network routing use case**. arXiv 2019. [Link](http://arxiv.org/abs/1910.07421)
   - *DRL + GNN*
+
+### 2016
+
+- França LFA. **Application of reinforcement learning for the spectrum allocation problem in elastic optical networks**. PhD Thesis, 2016. [Link](http://urlib.net/sid.inpe.br/mtc-m21b/2016/05.16.02.36)
+  - *RL for spectrum allocation (early work)*
 
 ---
 
@@ -167,6 +234,11 @@ A curated collection of AI/ML research papers for optical networks. Only papers 
 - Khosravi F, Shadaram M. **Retentive Time Series: A Scalable Machine Learning Model for Traffic Prediction in Elastic Optical Networks**. IEEE Access, 2025. [Link](https://ieeexplore.ieee.org/)
   - *Retentive networks for traffic prediction*
 
+### 2024
+
+- Zhu R, et al. **A load prediction method for data transmission in optical communication networks based on LSTM Model**. CNML 2024. [Link](https://doi.org/10.1145/3701047.3701048)
+  - *LSTM for load prediction*
+
 ### 2018
 
 - Choudhury GL, et al. **Two Use Cases of Machine Learning for SDN-Enabled IP/Optical Networks: Traffic Matrix Prediction and Optical Path Performance Prediction**. JOCN, 2018. [Link](https://doi.org/10.1364/jocn.10.000d52)
@@ -197,5 +269,5 @@ A curated collection of AI/ML research papers for optical networks. Only papers 
 
 ---
 
-**Papers: 30+ (AI/ML focused)**
+**Papers: 45+ (AI/ML focused)**
 **Last Updated**: February 2026
