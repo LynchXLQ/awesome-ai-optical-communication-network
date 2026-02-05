@@ -1,5 +1,8 @@
 <div align="center">
 
+<!-- DYNAMIC BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=220&section=header&text=Awesome%20AI%20for%20Optical%20Networks&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=🌐%20A%20curated%20collection%20of%20AI/ML%20research%20papers&descSize=18&descAlignY=55" width="100%"/>
+
 # 🌐 Awesome AI for Optical Communication Networks
 
 <p align="center">
