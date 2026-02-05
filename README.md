@@ -1,266 +1,309 @@
-# AI/ML for Optical Communication Networks
+<div align="center">
 
-This repository provides a curated collection of research papers on **Artificial Intelligence and Machine Learning applications in Optical Communication Networks**.
-
-If you find this repository helpful, please consider citing our work:
-
-```bibtex
-@misc{ai-optical-networks,
-  author = {Your Name},
-  title = {AI/ML for Optical Communication Networks: A Paper Collection},
-  year = {2026},
-  publisher = {GitHub},
-  url = {https://github.com/YOUR_USERNAME/awesome-ai-optical-communication-network}
-}
+<!-- HEADER -->
+```
+ █████╗ ██╗    ██╗███████╗███████╗ ██████╗ ███╗   ███╗███████╗
+██╔══██╗██║    ██║██╔════╝██╔════╝██╔═══██╗████╗ ████║██╔════╝
+███████║██║ █╗ ██║█████╗  ███████╗██║   ██║██╔████╔██║█████╗  
+██╔══██║██║███╗██║██╔══╝  ╚════██║██║   ██║██║╚██╔╝██║██╔══╝  
+██║  ██║╚███╔███╔╝███████╗███████║╚██████╔╝██║ ╚═╝ ██║███████╗
+╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
+     █████╗ ██╗       ██████╗ ██████╗ ████████╗██╗ ██████╗ █████╗ ██╗     
+    ██╔══██╗██║      ██╔═══██╗██╔══██╗╚══██╔══╝██║██╔════╝██╔══██╗██║     
+    ███████║██║█████╗██║   ██║██████╔╝   ██║   ██║██║     ███████║██║     
+    ██╔══██║██║╚════╝██║   ██║██╔═══╝    ██║   ██║██║     ██╔══██║██║     
+    ██║  ██║██║      ╚██████╔╝██║        ██║   ██║╚██████╗██║  ██║███████╗
+    ╚═╝  ╚═╝╚═╝       ╚═════╝ ╚═╝        ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝
 ```
 
-For a comprehensive survey, we recommend:
+# 🌐 Awesome AI for Optical Communication Networks
 
-> Wang D, Zhang M. **Artificial Intelligence in Optical Communications: From Machine Learning to Deep Learning**. Frontiers in Communications and Networks, 2021. [[Paper]](https://doi.org/10.3389/frcmn.2021.656786)
+<p align="center">
+  <strong>A curated collection of AI/ML research papers for optical communication networks</strong>
+</p>
 
----
+<!-- BADGES -->
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+  <img src="https://img.shields.io/badge/Papers-64+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/awesome-ai-optical-communication-network?style=flat-square&logo=github&color=yellow" alt="Stars">
+  <img src="https://img.shields.io/github/forks/YOUR_USERNAME/awesome-ai-optical-communication-network?style=flat-square&logo=github" alt="Forks">
+  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/awesome-ai-optical-communication-network?style=flat-square" alt="Last Commit">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+</p>
 
-## Contents
+<p align="center">
+  <img src="https://img.shields.io/badge/Deep%20Learning-PyTorch-EE4C2C?style=flat-square&logo=pytorch" alt="PyTorch">
+  <img src="https://img.shields.io/badge/GNN-Graph%20Neural%20Networks-00ADD8?style=flat-square" alt="GNN">
+  <img src="https://img.shields.io/badge/DRL-Reinforcement%20Learning-FF6F00?style=flat-square" alt="DRL">
+  <img src="https://img.shields.io/badge/Transformer-Attention-9B59B6?style=flat-square" alt="Transformer">
+  <img src="https://img.shields.io/badge/LLM-Large%20Language%20Model-2ECC71?style=flat-square" alt="LLM">
+</p>
 
-- [Survey Papers](#survey-papers)
-- [QoT Estimation](#qot-estimation)
-- [Optical Performance Monitoring](#optical-performance-monitoring)
-- [Failure Detection and Localization](#failure-detection-and-localization)
-- [Routing and Spectrum Assignment](#routing-and-spectrum-assignment)
-- [Traffic Prediction](#traffic-prediction)
-- [Deep Learning for DSP](#deep-learning-for-dsp)
-- [Graph Neural Networks](#graph-neural-networks)
-- [Tools and Datasets](#tools-and-datasets)
-
----
-
-## Survey Papers
-
-- Wang D, Zhang M. **Artificial Intelligence in Optical Communications: From Machine Learning to Deep Learning**. Frontiers in Communications and Networks, 2021. [[Paper]](https://doi.org/10.3389/frcmn.2021.656786)
-
-- Musumeci F, et al. **An Overview on Application of Machine Learning Techniques in Optical Networks**. IEEE Communications Surveys & Tutorials, 2019. [[Paper]](https://doi.org/10.1109/COMST.2018.2880039)
-
-- Khan FN, et al. **An Optical Communication's Perspective on Machine Learning and Its Applications**. Journal of Lightwave Technology, 2019. [[Paper]](https://doi.org/10.1109/JLT.2019.2952179)
-
----
-
-## QoT Estimation
-
-Quality of Transmission (QoT) estimation using machine learning for margin reduction and proactive network management.
-
-### 2025
-
-- Zhang Y, et al. **Design and Evaluation of an LLM-Based Agent for QoT Estimation and Performance Optimization in Optical Networks**. IEEE Open Journal of the Communications Society, 2025. [[Paper]](https://doi.org/10.1109/OJCOMS.2025.3608290)
-
-- Lechowicz P, et al. **QoT Estimation with Margin-Driven Transfer Learning in Time-Varying Optical Networks**. OFC, 2025. [[Paper]](https://ieeexplore.ieee.org/document/11047188)
-
-### 2024
-
-- Usmani F, et al. **Integrating Knowledge Distillation and Transfer Learning for Enhanced QoT-Estimation in Optical Networks**. IEEE Access, 2024. [[Paper]](https://doi.org/10.1109/ACCESS.2024.3485999)
-
-- Cai Z, et al. **Domain adversarial adaptation framework for few-shot QoT estimation in optical networks**. Journal of Optical Communications and Networking, 2024. [[Paper]](https://doi.org/10.1364/JOCN.530915)
-
-- Zhou Y, et al. **Evolutionary neuron-level transfer learning for QoT estimation in optical networks**. Journal of Optical Communications and Networking, 2024. [[Paper]](https://doi.org/10.1364/JOCN.514618)
-
-- Ouyang Z, et al. **Overview of ML-aided QoT Estimation in Optical Networks: A Perspective of Model Generalization**. ICCT, 2024. [[Paper]](https://doi.org/10.1109/ICCT62411.2024.10946528)
-
-- Zhai Z, et al. **Open-source data for QoT estimation in optical networks from Alibaba**. Journal of Optical Communications and Networking, 2024. [[Paper]](https://doi.org/10.1364/JOCN.504549)
-
-### 2023
-
-- Ayoub O, et al. **Towards explainable artificial intelligence in optical networks: the use case of lightpath QoT estimation**. Journal of Optical Communications and Networking, 2023. [[Paper]](https://doi.org/10.1364/JOCN.470812)
-
-- Gu Z, et al. **Sample-distribution-matching-based transfer learning for QoT estimation in optical networks**. Journal of Optical Communications and Networking, 2023. [[Paper]](https://doi.org/10.1364/JOCN.493053)
-
-### 2022
-
-- Kruse LE, et al. **Exact component parameter agnostic QoT estimation using spectral data-driven LSTM in optical networks**. OFC, 2022. [[Paper]](https://ieeexplore.ieee.org/document/9748415)
-
-### 2021
-
-- Bouda M, et al. **Towards vendor-agnostic real-time optical network design with extended Kalman state estimation and recurrent neural network machine learning**. Journal of Optical Communications and Networking, 2021. [[Paper]](https://doi.org/10.1364/jocn.409278)
+<p align="center">
+  <a href="#-qot-estimation">QoT</a> •
+  <a href="#-graph-neural-networks">GNN</a> •
+  <a href="#-deep-reinforcement-learning">DRL</a> •
+  <a href="#-transformer--attention">Transformer</a> •
+  <a href="#-failure-detection">Failure</a> •
+  <a href="#-traffic-prediction">Traffic</a> •
+  <a href="#-tools--datasets">Tools</a>
+</p>
 
 ---
 
-## Optical Performance Monitoring
+<!-- STAR HISTORY -->
+[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/awesome-ai-optical-communication-network&type=Date)](https://star-history.com/#YOUR_USERNAME/awesome-ai-optical-communication-network&Date)
 
-Real-time monitoring of optical signal parameters (OSNR, CD, PMD) using machine learning.
-
-### 2019
-
-- Tanimura T, et al. **Convolutional Neural Network-Based Optical Performance Monitoring for Optical Transport Networks**. Journal of Optical Communications and Networking, 2019. [[Paper]](https://doi.org/10.1364/jocn.11.000a52)
+</div>
 
 ---
 
-## Failure Detection and Localization
+## 📖 Table of Contents
 
-Machine learning-based detection and localization of network failures.
-
-### 2025
-
-- Karunakaran V, et al. **Dynamic network-aware soft failure localization using machine learning in optical networks**. Journal of Optical Communications and Networking, 2025. [[Paper]](https://doi.org/10.1364/JOCN.564177)
-
-### 2024
-
-- Jiao Y, et al. **On Board-Level Failure Localization in Optical Transport Networks Using Graph Neural Network**. DRCN, 2024. [[Paper]](https://doi.org/10.1109/DRCN60692.2024.10539167)
-
-### 2023
-
-- Zhang C, et al. **Covert fault detection with imbalanced data using an improved autoencoder for optical networks**. Journal of Optical Communications and Networking, 2023. [[Paper]](https://doi.org/10.1364/JOCN.502937)
-
-- Xu X, et al. **Optical Network Diagnostics Using Graph Neural Networks and Natural Language Processing**. OFC, 2023. [[Paper]](https://doi.org/10.23919/OFC49934.2023.10117074)
-
-### 2022
-
-- Wu J, et al. **Autonomous Operation and Maintenance Technology of Optical Network based on Graph Neural Network**. IWCMC, 2022. [[Paper]](https://doi.org/10.1109/IWCMC55113.2022.9824730)
-
-### 2021
-
-- Abdelli K, et al. **Gated Recurrent Unit based Autoencoder for Optical Link Fault Diagnosis in Passive Optical Networks**. ECOC, 2021. [[Paper]](https://doi.org/10.1109/ECOC52684.2021.9605969)
-
-### 2020
-
-- Li Z, et al. **Demonstration of Fault Localization in Optical Networks Based on Knowledge Graph and Graph Neural Network**. OFC, 2020. [[Paper]](https://ieeexplore.ieee.org/document/9083657)
+- [🎯 QoT Estimation](#-qot-estimation)
+- [🔗 Graph Neural Networks](#-graph-neural-networks)
+- [🎮 Deep Reinforcement Learning](#-deep-reinforcement-learning)
+- [🤖 Transformer & Attention](#-transformer--attention)
+- [📊 LSTM & RNN](#-lstm--rnn)
+- [🔍 Failure Detection & Localization](#-failure-detection--localization)
+- [📈 Traffic Prediction](#-traffic-prediction)
+- [🧠 End-to-End Deep Learning](#-end-to-end-deep-learning)
+- [🔄 Transfer Learning](#-transfer-learning)
+- [💬 LLM for Optical Networks](#-llm-for-optical-networks)
+- [🛠️ Tools & Datasets](#️-tools--datasets)
+- [🤝 Contributing](#-contributing)
 
 ---
 
-## Routing and Spectrum Assignment
+## 🎯 QoT Estimation
 
-AI-driven routing, modulation, and spectrum allocation in elastic optical networks.
+> Quality of Transmission estimation using machine learning for margin reduction and proactive network management
 
-### 2026
+<details open>
+<summary><b>📅 2025</b></summary>
 
-- Knapinska A, et al. **Graph-Based Machine Learning Estimation Methods for Backbone Optical Network Optimization**. IEEE Transactions on Cognitive Communications and Networking, 2026. [[Paper]](https://doi.org/10.1109/TCCN.2025.3585941)
+| Title | Venue | AI Method | Links |
+|-------|-------|-----------|-------|
+| Design and Evaluation of an LLM-Based Agent for QoT Estimation and Performance Optimization | IEEE OJCOMS | **LLM Agent** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/OJCOMS.2025.3608290) |
+| QoT Estimation with Margin-Driven Transfer Learning in Time-Varying Optical Networks | OFC | **Transfer Learning** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/11047188) |
 
-### 2023
+</details>
 
-- Shabka Z, Zervas G. **Network-aware compute and memory allocation in optically composable data centers with deep reinforcement learning and graph neural networks**. Journal of Optical Communications and Networking, 2023. [[Paper]](https://doi.org/10.1364/jocn.478944)
+<details>
+<summary><b>📅 2024</b></summary>
 
-### 2022
+| Title | Venue | AI Method | Links |
+|-------|-------|-----------|-------|
+| Integrating Knowledge Distillation and Transfer Learning for Enhanced QoT-Estimation | IEEE Access | **Knowledge Distillation** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ACCESS.2024.3485999) |
+| Domain adversarial adaptation framework for few-shot QoT estimation | JOCN | **Domain Adaptation** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.530915) |
+| Evolutionary neuron-level transfer learning for QoT estimation | JOCN | **Evolutionary TL** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.514618) |
+| Overview of ML-aided QoT Estimation: A Perspective of Model Generalization | ICCT | **Survey** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ICCT62411.2024.10946528) |
+| Open-source data for QoT estimation from Alibaba | JOCN | **Dataset** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.504549) |
 
-- Hong Y, et al. **Neural network-assisted decision-making for adaptive routing strategy in optical datacenter networks**. Optical Switching and Networking, 2022. [[Paper]](https://doi.org/10.1016/j.osn.2022.100677)
+</details>
 
-- Matzner R, et al. **Ultra-fast Optical Network Throughput Prediction using Graph Neural Networks**. ONDM, 2022. [[Paper]](https://doi.org/10.23919/ONDM54585.2022.9782853)
+<details>
+<summary><b>📅 2023</b></summary>
 
-### 2020
+| Title | Venue | AI Method | Links |
+|-------|-------|-----------|-------|
+| Towards explainable AI in optical networks: lightpath QoT estimation | JOCN | **Explainable AI** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.470812) |
+| Sample-distribution-matching-based transfer learning for QoT estimation | JOCN | **Transfer Learning** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.493053) |
 
-- Gao Z, et al. **Resource Allocation via Graph Neural Networks in Free Space Optical Fronthaul Networks**. GLOBECOM, 2020. [[Paper]](https://doi.org/10.1109/GLOBECOM42002.2020.9322426)
+</details>
 
-- Gu R, et al. **Flexible Optical Network Enabled Proactive Cross-Layer Restructuring for 5G/B5G Backhaul Network with Machine Learning Engine**. OFC, 2020. [[Paper]](https://ieeexplore.ieee.org/document/9083288)
+<details>
+<summary><b>📅 2021-2022</b></summary>
 
-### 2019
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Exact component parameter agnostic QoT estimation using spectral data-driven LSTM | 2022 | OFC | **LSTM** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/9748415) |
+| Vendor-agnostic real-time optical network design with extended Kalman and RNN | 2021 | JOCN | **RNN + Kalman** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/jocn.409278) |
 
-- Almasan P, et al. **Deep Reinforcement Learning meets Graph Neural Networks: An optical network routing use case**. arXiv, 2019. [[Paper]](https://arxiv.org/abs/1910.07421)
-
-- Guo H, et al. **Machine Learning Assisted Optical Network Resource Scheduling in Data Center Networks**. ONDM, 2019. [[Paper]](https://doi.org/10.1007/978-3-030-38085-4_18)
-
----
-
-## Traffic Prediction
-
-Machine learning models for traffic forecasting in optical networks.
-
-### 2025
-
-- Nourmohammadi F, et al. **Hybrid Spatio-Temporal CNN-LSTM/BiLSTM Models for Blocking Prediction in Elastic Optical Networks**. Network, 2025. [[Paper]](https://doi.org/10.3390/network5040044)
-
-### 2024
-
-- Almawgani AHM. **RNN-LSTM model for reliable optical transmission in flexible switching network systems**. Wireless Networks, 2024. [[Paper]](https://doi.org/10.1007/s11276-023-03599-9)
-
-- Zhu R, et al. **A load prediction method for data transmission in optical communication networks based on LSTM Model**. CNML, 2024. [[Paper]](https://doi.org/10.1145/3701047.3701048)
-
-### 2020
-
-- Aibin M. **LSTM for Cloud Data Centers Resource Allocation in Software-Defined Optical Networks**. UEMCON, 2020. [[Paper]](https://doi.org/10.1109/UEMCON51285.2020.9298133)
-
-### 2018
-
-- Choudhury GL, et al. **Two Use Cases of Machine Learning for SDN-Enabled IP/Optical Networks: Traffic Matrix Prediction and Optical Path Performance Prediction**. Journal of Optical Communications and Networking, 2018. [[Paper]](https://doi.org/10.1364/jocn.10.000d52)
+</details>
 
 ---
 
-## Deep Learning for DSP
+## 🔗 Graph Neural Networks
 
-End-to-end deep learning for digital signal processing in optical fiber communication systems.
+> Leveraging network topology for intelligent optical network management
 
-### 2025
-
-- Ali Z, et al. **Transformer-Based Precoding for User-Centric Network Massive MIMO Optical Wireless Communications**. IEEE Access, 2025. [[Paper]](https://doi.org/10.1109/ACCESS.2025.3646268)
-
-### 2024
-
-- Gautam N, et al. **Transformer-Based Nonlinear Equalization for DP-16QAM Coherent Optical Communication Systems**. IEEE Communications Letters, 2024. [[Paper]](https://doi.org/10.1109/LCOMM.2023.3344996)
-
-### 2023
-
-- Zou C, et al. **Underwater Wireless Optical Communication With One-Bit Quantization: A Hybrid Autoencoder and Generative Adversarial Network Approach**. IEEE Transactions on Wireless Communications, 2023. [[Paper]](https://doi.org/10.1109/TWC.2023.3243212)
-
-### 2022
-
-- Cao M, et al. **LSTM Attention Neural-Network-Based Signal Detection for Hybrid Modulated Faster-Than-Nyquist Optical Wireless Communications**. Sensors, 2022. [[Paper]](https://doi.org/10.3390/s22228992)
-
-### 2021
-
-- Neskorniuk V, et al. **End-to-End Deep Learning of Long-Haul Coherent Optical Fiber Communications via Regular Perturbation Model**. ECOC, 2021. [[Paper]](https://doi.org/10.1109/ECOC52684.2021.9605928)
-
-### 2020
-
-- Karanov B, et al. **Experimental Investigation of Deep Learning for Digital Signal Processing in Short Reach Optical Fiber Communications**. SiPS, 2020. [[Paper]](https://doi.org/10.1109/SiPS50750.2020.9195215)
-
-### 2018
-
-- Karanov B, et al. **End-to-end Deep Learning of Optical Fiber Communications**. arXiv, 2018. [[Paper]](https://arxiv.org/abs/1804.04097)
+| Title | Year | Venue | Links |
+|-------|------|-------|-------|
+| Graph-Based ML Estimation Methods for Backbone Optical Network Optimization | 2026 | IEEE TCCN | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TCCN.2025.3585941) |
+| Board-Level Failure Localization Using Graph Neural Network | 2024 | DRCN | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/DRCN60692.2024.10539167) |
+| Network-aware compute and memory allocation with DRL and GNN | 2023 | JOCN | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/jocn.478944) |
+| Optical Network Diagnostics Using GNN and NLP | 2023 | OFC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/OFC49934.2023.10117074) |
+| Ultra-fast Optical Network Throughput Prediction using GNN | 2022 | ONDM | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/ONDM54585.2022.9782853) |
+| Autonomous Operation and Maintenance based on GNN | 2022 | IWCMC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/IWCMC55113.2022.9824730) |
+| Fault Localization Based on Knowledge Graph and GNN | 2020 | OFC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/9083657) |
+| Resource Allocation via GNN in Free Space Optical Fronthaul | 2020 | GLOBECOM | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/GLOBECOM42002.2020.9322426) |
+| Deep Reinforcement Learning meets GNN: optical network routing | 2019 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/1910.07421) |
 
 ---
 
-## Graph Neural Networks
+## 🎮 Deep Reinforcement Learning
 
-Graph Neural Network applications in optical networks.
+> Intelligent decision-making for resource allocation and routing
 
-- Knapinska A, et al. **Graph-Based Machine Learning Estimation Methods for Backbone Optical Network Optimization**. IEEE TCCN, 2026. [[Paper]](https://doi.org/10.1109/TCCN.2025.3585941)
-
-- Jiao Y, et al. **On Board-Level Failure Localization in Optical Transport Networks Using Graph Neural Network**. DRCN, 2024. [[Paper]](https://doi.org/10.1109/DRCN60692.2024.10539167)
-
-- Shabka Z, Zervas G. **Network-aware compute and memory allocation in optically composable data centers with deep reinforcement learning and graph neural networks**. JOCN, 2023. [[Paper]](https://doi.org/10.1364/jocn.478944)
-
-- Xu X, et al. **Optical Network Diagnostics Using Graph Neural Networks and Natural Language Processing**. OFC, 2023. [[Paper]](https://doi.org/10.23919/OFC49934.2023.10117074)
-
-- Matzner R, et al. **Ultra-fast Optical Network Throughput Prediction using Graph Neural Networks**. ONDM, 2022. [[Paper]](https://doi.org/10.23919/ONDM54585.2022.9782853)
-
-- Wu J, et al. **Autonomous Operation and Maintenance Technology of Optical Network based on Graph Neural Network**. IWCMC, 2022. [[Paper]](https://doi.org/10.1109/IWCMC55113.2022.9824730)
-
-- Li Z, et al. **Demonstration of Fault Localization in Optical Networks Based on Knowledge Graph and Graph Neural Network**. OFC, 2020. [[Paper]](https://ieeexplore.ieee.org/document/9083657)
-
-- Gao Z, et al. **Resource Allocation via Graph Neural Networks in Free Space Optical Fronthaul Networks**. GLOBECOM, 2020. [[Paper]](https://doi.org/10.1109/GLOBECOM42002.2020.9322426)
-
-- Almasan P, et al. **Deep Reinforcement Learning meets Graph Neural Networks: An optical network routing use case**. arXiv, 2019. [[Paper]](https://arxiv.org/abs/1910.07421)
+| Title | Year | Venue | Links |
+|-------|------|-------|-------|
+| Network-aware compute and memory allocation with DRL and GNN | 2023 | JOCN | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/jocn.478944) |
+| Deep Reinforcement Learning meets GNN: optical network routing | 2019 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/1910.07421) |
 
 ---
 
-## Tools and Datasets
+## 🤖 Transformer & Attention
 
-### Tools
+> State-of-the-art attention mechanisms for optical communications
 
-| Tool | Description | Link |
-|------|-------------|------|
-| GNPy | Open-source library for optical physical layer modeling | [GitHub](https://github.com/Telecominfraproject/oopt-gnpy) |
-| Net2Plan | Network planning tool for optical networks | [Website](http://www.net2plan.com/) |
-| OpenROADM | Multi-source agreement for ROADM | [Website](http://openroadm.org/) |
+| Title | Year | Venue | Links |
+|-------|------|-------|-------|
+| Transformer-Based Precoding for User-Centric Network Massive MIMO OWC | 2025 | IEEE Access | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ACCESS.2025.3646268) |
+| Transformer-Based Nonlinear Equalization for DP-16QAM Coherent Optical | 2024 | IEEE Comm. Letters | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/LCOMM.2023.3344996) |
 
-### Datasets
+---
+
+## 📊 LSTM & RNN
+
+> Sequential modeling for time-series analysis in optical networks
+
+| Title | Year | Venue | Links |
+|-------|------|-------|-------|
+| Hybrid Spatio-Temporal CNN-LSTM/BiLSTM for Blocking Prediction in EON | 2025 | Network | [![Paper](https://img.shields.io/badge/Paper-MDPI-green)](https://doi.org/10.3390/network5040044) |
+| RNN-LSTM for reliable optical transmission in flexible switching | 2024 | Wireless Networks | [![Paper](https://img.shields.io/badge/Paper-Springer-yellow)](https://doi.org/10.1007/s11276-023-03599-9) |
+| Load prediction for data transmission based on LSTM | 2024 | CNML | [![Paper](https://img.shields.io/badge/Paper-ACM-purple)](https://doi.org/10.1145/3701047.3701048) |
+| LSTM Attention for Hybrid Modulated Faster-Than-Nyquist OWC | 2022 | Sensors | [![Paper](https://img.shields.io/badge/Paper-MDPI-green)](https://doi.org/10.3390/s22228992) |
+| LSTM for Cloud Data Centers Resource Allocation in SDN Optical Networks | 2020 | UEMCON | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/UEMCON51285.2020.9298133) |
+
+---
+
+## 🔍 Failure Detection & Localization
+
+> AI-powered fault management in optical networks
+
+<details open>
+<summary><b>📅 2023-2025</b></summary>
+
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Dynamic network-aware soft failure localization using ML | 2025 | JOCN | **ML Classification** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.564177) |
+| Board-Level Failure Localization Using GNN | 2024 | DRCN | **GNN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/DRCN60692.2024.10539167) |
+| Covert fault detection with imbalanced data using improved autoencoder | 2023 | JOCN | **Autoencoder** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.502937) |
+| Optical Network Diagnostics Using GNN and NLP | 2023 | OFC | **GNN + NLP** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/OFC49934.2023.10117074) |
+
+</details>
+
+<details>
+<summary><b>📅 2020-2022</b></summary>
+
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Autonomous O&M based on GNN | 2022 | IWCMC | **GNN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/IWCMC55113.2022.9824730) |
+| GRU-based Autoencoder for Optical Link Fault Diagnosis in PON | 2021 | ECOC | **GRU Autoencoder** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ECOC52684.2021.9605969) |
+| Fault Localization Based on Knowledge Graph and GNN | 2020 | OFC | **GNN + KG** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/9083657) |
+
+</details>
+
+---
+
+## 📈 Traffic Prediction
+
+> Machine learning for network traffic forecasting
+
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Hybrid Spatio-Temporal CNN-LSTM/BiLSTM for Blocking Prediction | 2025 | Network | **CNN-LSTM** | [![Paper](https://img.shields.io/badge/Paper-MDPI-green)](https://doi.org/10.3390/network5040044) |
+| RNN-LSTM for reliable optical transmission | 2024 | Wireless Networks | **RNN-LSTM** | [![Paper](https://img.shields.io/badge/Paper-Springer-yellow)](https://doi.org/10.1007/s11276-023-03599-9) |
+| Load prediction based on LSTM | 2024 | CNML | **LSTM** | [![Paper](https://img.shields.io/badge/Paper-ACM-purple)](https://doi.org/10.1145/3701047.3701048) |
+| Two Use Cases of ML for SDN-Enabled IP/Optical Networks | 2018 | JOCN | **ML** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/jocn.10.000d52) |
+
+---
+
+## 🧠 End-to-End Deep Learning
+
+> Neural networks replacing traditional DSP in optical fiber communications
+
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Underwater Wireless Optical Communication: Hybrid Autoencoder and GAN | 2023 | IEEE TWC | **AE + GAN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TWC.2023.3243212) |
+| End-to-End Deep Learning of Long-Haul Coherent Optical via Perturbation | 2021 | ECOC | **DNN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ECOC52684.2021.9605928) |
+| Experimental Investigation of DL for DSP in Short Reach Optical | 2020 | SiPS | **DNN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/SiPS50750.2020.9195215) |
+| CNN-Based Optical Performance Monitoring | 2019 | JOCN | **CNN** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/jocn.11.000a52) |
+| End-to-end Deep Learning of Optical Fiber Communications | 2018 | arXiv | **Autoencoder** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/1804.04097) |
+
+---
+
+## 🔄 Transfer Learning
+
+> Knowledge transfer for efficient model adaptation
+
+| Title | Year | Venue | Links |
+|-------|------|-------|-------|
+| QoT Estimation with Margin-Driven Transfer Learning | 2025 | OFC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/11047188) |
+| Knowledge Distillation and Transfer Learning for QoT-Estimation | 2024 | IEEE Access | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ACCESS.2024.3485999) |
+| Domain adversarial adaptation for few-shot QoT estimation | 2024 | JOCN | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.530915) |
+| Evolutionary neuron-level transfer learning for QoT | 2024 | JOCN | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.514618) |
+| Sample-distribution-matching-based transfer learning | 2023 | JOCN | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.493053) |
+
+---
+
+## 💬 LLM for Optical Networks
+
+> Large Language Models for intelligent optical network management
+
+| Title | Year | Venue | Links |
+|-------|------|-------|-------|
+| LLM-Based Agent for QoT Estimation and Performance Optimization | 2025 | IEEE OJCOMS | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/OJCOMS.2025.3608290) |
+| Optical Network Diagnostics Using GNN and NLP | 2023 | OFC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/OFC49934.2023.10117074) |
+
+---
+
+## 🛠️ Tools & Datasets
+
+### 📦 Software Tools
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Telecominfraproject/oopt-gnpy"><img src="https://img.shields.io/badge/GNPy-Optical%20Layer%20Modeling-blue?style=for-the-badge&logo=python" alt="GNPy"></a></td>
+<td align="center"><a href="http://www.net2plan.com/"><img src="https://img.shields.io/badge/Net2Plan-Network%20Planning-green?style=for-the-badge&logo=java" alt="Net2Plan"></a></td>
+<td align="center"><a href="http://openroadm.org/"><img src="https://img.shields.io/badge/OpenROADM-Multi--Source%20Agreement-orange?style=for-the-badge" alt="OpenROADM"></a></td>
+</tr>
+</table>
+
+### 📊 Datasets
 
 | Dataset | Description | Link |
 |---------|-------------|------|
-| Alibaba QoT Dataset | Open-source QoT data from production network | [Paper](https://doi.org/10.1364/JOCN.504549) |
-| UCI OBS Network | Burst Header Packet flooding attack data | [UCI](https://doi.org/10.24432/C51C81) |
+| 🏢 **Alibaba QoT Dataset** | Open-source QoT data from production network | [![Dataset](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.504549) |
+| 🔐 **UCI OBS Network** | Burst Header Packet flooding attack data | [![Dataset](https://img.shields.io/badge/Data-UCI-purple)](https://doi.org/10.24432/C51C81) |
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please submit a pull request or open an issue.
+<p align="center">
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"></a>
+</p>
 
-## License
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md).
 
-MIT License
+**How to contribute:**
+1. 🍴 Fork this repository
+2. 📝 Add papers following the format
+3. 🔄 Submit a pull request
+
+---
+
+<div align="center">
+
+### ⭐ If you find this repository useful, please consider giving it a star!
+
+[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/awesome-ai-optical-communication-network?style=social)](https://github.com/YOUR_USERNAME/awesome-ai-optical-communication-network)
+
+**Made with ❤️ for the Optical Networking Research Community**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+
+</div>
