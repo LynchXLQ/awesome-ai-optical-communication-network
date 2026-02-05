@@ -271,3 +271,35 @@ A curated collection of AI/ML research papers for optical networks. Only papers 
 
 **Papers: 45+ (AI/ML focused)**
 **Last Updated**: February 2026
+
+---
+
+## Transformer Models
+
+### 2025
+
+- Ali Z, et al. **Transformer-Based Precoding for User-Centric Network Massive MIMO Optical Wireless Communications**. IEEE Access, 2025. [Link](https://doi.org/10.1109/ACCESS.2025.3646268)
+  - *Transformer for MIMO optical*
+
+### 2024
+
+- Gautam N, et al. **Transformer-Based Nonlinear Equalization for DP-16QAM Coherent Optical Communication Systems**. IEEE Commun. Lett., 2024. [Link](https://doi.org/10.1109/LCOMM.2023.3344996)
+  - *Transformer for nonlinear equalization*
+
+---
+
+## Autoencoder
+
+### 2023
+
+- Zhang C, et al. **Covert fault detection with imbalanced data using an improved autoencoder for optical networks**. JOCN, 2023. [Link](https://doi.org/10.1364/JOCN.502937)
+  - *Autoencoder for fault detection*
+
+- Zou C, et al. **Underwater Wireless Optical Communication With One-Bit Quantization: A Hybrid Autoencoder and Generative Adversarial Network Approach**. IEEE TWC, 2023. [Link](https://doi.org/10.1109/TWC.2023.3243212)
+  - *Autoencoder + GAN*
+
+### 2021
+
+- Abdelli K, et al. **Gated Recurrent Unit based Autoencoder for Optical Link Fault Diagnosis in Passive Optical Networks**. ECOC 2021. [Link](https://doi.org/10.1109/ECOC52684.2021.9605969)
+  - *GRU-Autoencoder for fault diagnosis*
+
