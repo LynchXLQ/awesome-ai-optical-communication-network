@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-64+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-82+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&color=purple" alt="Last Commit">
@@ -126,6 +126,7 @@
 | Title | Year | Venue | Links |
 |-------|------|-------|-------|
 | Graph-Based ML Estimation Methods for Backbone Optical Network Optimization | 2026 | IEEE TCCN | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TCCN.2025.3585941) |
+| Robust Restoration of IP Traffic from Optical Failures by DRL and GNN | 2024 | ICTON | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ICTON62926.2024.10647371) |
 | Board-Level Failure Localization Using Graph Neural Network | 2024 | DRCN | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/DRCN60692.2024.10539167) |
 | Network-aware compute and memory allocation with DRL and GNN | 2023 | JOCN | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/jocn.478944) |
 | Optical Network Diagnostics Using GNN and NLP | 2023 | OFC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/OFC49934.2023.10117074) |
@@ -141,10 +142,37 @@
 
 > Intelligent decision-making for resource allocation and routing
 
-| Title | Year | Venue | Links |
-|-------|------|-------|-------|
-| Network-aware compute and memory allocation with DRL and GNN | 2023 | JOCN | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/jocn.478944) |
-| Deep Reinforcement Learning meets GNN: optical network routing | 2019 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/1910.07421) |
+<details open>
+<summary><b>📅 2024-2025</b></summary>
+
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Understanding deep reinforcement learning: Enhancing explainable decision-making in optical networks | 2025 | ICT Express | **Explainable DRL** | [![Paper](https://img.shields.io/badge/Paper-Elsevier-yellow)](https://doi.org/10.1016/j.icte.2025.08.002) |
+| Deep reinforcement learning-aided multi-step job scheduling in optical data center networks | 2025 | JOCN | **DRL Scheduling** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.562531) |
+| Beyond Performance: Explaining Non-Intuitive Deep RL Actions in Elastic Optical Networks | 2025 | ECOC | **Explainable DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ECOC66593.2025.11263061) |
+| Reinforcement learning for dynamic resource allocation in optical networks: hype or hope? | 2025 | JOCN | **RL Survey** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.559990) |
+| DRL-Based Joint Optimization of Routing and Wavelength Assignment for Satellite Optical Networks | 2025 | VTC | **DRL + RWA** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/VTC2025-Spring65109.2025.11174520) |
+| Availability-Aware and Delay-Sensitive RAN Slicing Mapping Based on DRL in Elastic Optical Networks | 2024 | IEEE TNSM | **DRL + RAN Slicing** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TNSM.2024.3440574) |
+| OpticGAI: Generative AI-aided Deep Reinforcement Learning for Optical Networks Optimization | 2024 | HotOptics | **GenAI + DRL** | [![Paper](https://img.shields.io/badge/Paper-ACM-purple)](https://doi.org/10.1145/3672201.3674119) |
+| Multilayer restoration in IP-Optical networks by DRL | 2024 | JOCN | **DRL + Restoration** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.523894) |
+| Opti-DeepRoute: A Topology-Adaptive DRL Based Service Provisioning Framework for EON | 2024 | INFOCOM | **Topology-Adaptive DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620793) |
+| Deep Reinforcement Learning for Resource Allocation in Multi-Band Optical Networks | 2024 | ONDM | **DRL + Multi-Band** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/ONDM61578.2024.10582635) |
+| Towards Explainable Reinforcement Learning in Optical Networks: The RMSA Use Case | 2024 | OFC | **Explainable RL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/10527146) |
+| DNN distributed inference offloading based on transfer RL in metro optical networks | 2024 | JOCN | **Transfer RL** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.533206) |
+| RL-Based Holistic Routing and Wavelength Assignment in Optical Network-on-Chip | 2024 | IEEE JETCAS | **RL + ONoC** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/JETCAS.2024.3435721) |
+| RL-Based Bandwidth Decision in Optical Access Networks with Confidence Guarantee | 2024 | IEEE TCOM | **RL + Bandwidth** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TCOMM.2024.3407195) |
+
+</details>
+
+<details>
+<summary><b>📅 2019-2023</b></summary>
+
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Network-aware compute and memory allocation with DRL and GNN | 2023 | JOCN | **DRL + GNN** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/jocn.478944) |
+| Deep Reinforcement Learning meets GNN: optical network routing | 2019 | arXiv | **DRL + GNN** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/1910.07421) |
+
+</details>
 
 ---
 
@@ -152,10 +180,13 @@
 
 > State-of-the-art attention mechanisms for optical communications
 
-| Title | Year | Venue | Links |
-|-------|------|-------|-------|
-| Transformer-Based Precoding for User-Centric Network Massive MIMO OWC | 2025 | IEEE Access | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ACCESS.2025.3646268) |
-| Transformer-Based Nonlinear Equalization for DP-16QAM Coherent Optical | 2024 | IEEE Comm. Letters | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/LCOMM.2023.3344996) |
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Transformer-Based Precoding for User-Centric Network Massive MIMO OWC | 2025 | IEEE Access | **Transformer** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ACCESS.2025.3646268) |
+| DenseNet-Transformer: spatial-temporal traffic prediction in optical fronthaul network | 2024 | Comput. Networks | **DenseNet-Transformer** | [![Paper](https://img.shields.io/badge/Paper-Elsevier-yellow)](https://doi.org/10.1016/j.comnet.2024.110674) |
+| AlarmGPT: an intelligent alarm analyzer for optical networks using GPT | 2024 | JOCN | **GPT/LLM** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.521913) |
+| Anomaly Detection and Localization in Optical Networks Using Vision Transformer | 2024 | OFC | **Vision Transformer** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/10526753) |
+| Transformer-Based Nonlinear Equalization for DP-16QAM Coherent Optical | 2024 | IEEE Comm. Letters | **Transformer** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/LCOMM.2023.3344996) |
 
 ---
 
@@ -182,7 +213,9 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| Soft failure detection and identification using cascaded deep learning model | 2025 | Comput. Networks | **Cascaded DL** | [![Paper](https://img.shields.io/badge/Paper-Elsevier-yellow)](https://doi.org/10.1016/j.comnet.2025.111159) |
 | Dynamic network-aware soft failure localization using ML | 2025 | JOCN | **ML Classification** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.564177) |
+| Optimizing Deep Learning-Based Failure Management by Monitoring Neural Activity | 2024 | ONDM | **DL + Monitoring** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/ONDM61578.2024.10582707) |
 | Board-Level Failure Localization Using GNN | 2024 | DRCN | **GNN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/DRCN60692.2024.10539167) |
 | Covert fault detection with imbalanced data using improved autoencoder | 2023 | JOCN | **Autoencoder** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.502937) |
 | Optical Network Diagnostics Using GNN and NLP | 2023 | OFC | **GNN + NLP** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/OFC49934.2023.10117074) |
@@ -266,12 +299,14 @@
 </tr>
 </table>
 
-### 📊 Datasets
+### 📊 Datasets & RL Environments
 
-| Dataset | Description | Link |
-|---------|-------------|------|
+| Resource | Description | Link |
+|----------|-------------|------|
 | 🏢 **Alibaba QoT Dataset** | Open-source QoT data from production network | [![Dataset](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.504549) |
 | 🔐 **UCI OBS Network** | Burst Header Packet flooding attack data | [![Dataset](https://img.shields.io/badge/Data-UCI-purple)](https://doi.org/10.24432/C51C81) |
+| 🎮 **XLRON** | Accelerated RL Environments for Optical Networks (2024) | [![Paper](https://img.shields.io/badge/Paper-OFC-blue)](https://ieeexplore.ieee.org/document/10526884) |
+| 🎮 **DREAM-ON GYM** | DRL Environment for Next-Gen Optical Networks (2024) | [![Paper](https://img.shields.io/badge/Paper-SIMULTECH-green)](https://doi.org/10.5220/0012715900003758) |
 
 ---
 
