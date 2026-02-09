@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-82+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-84+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&color=purple" alt="Last Commit">
@@ -302,8 +302,19 @@
 
 | Title | Year | Venue | Links |
 |-------|------|-------|-------|
+| CBA: Communication-Bound-Aware Cross-Domain Resource Assignment for Pipeline-Parallel Distributed LLM Training in Dynamic Multi-DC Optical Networks | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2512.20080) |
 | LLM-Based Agent for QoT Estimation and Performance Optimization | 2025 | IEEE OJCOMS | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/OJCOMS.2025.3608290) |
 | Optical Network Diagnostics Using GNN and NLP | 2023 | OFC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/OFC49934.2023.10117074) |
+
+---
+
+## 🌐 Digital Twin
+
+> Digital twin technologies for optical network modeling and management
+
+| Title | Year | Venue | Links |
+|-------|------|-------|-------|
+| Leveraging Digital Twin Technologies: All-Photonics Networks-as-a-Service for Data Center Xchange in the Era of AI | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.10153) |
 
 ---
 
