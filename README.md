@@ -229,6 +229,15 @@
 > AI-powered fault management in optical networks
 
 <details open>
+<summary><b>📅 2026</b></summary>
+
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Online Learning-Based Concept Drift Adaptation for Failure Detection in Optical Networks | 2026 | **OFC 2026** | **Online Learning** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.10401) |
+
+</details>
+
+<details open>
 <summary><b>📅 2023-2025</b></summary>
 
 | Title | Year | Venue | AI Method | Links |
@@ -302,6 +311,7 @@
 
 | Title | Year | Venue | Links |
 |-------|------|-------|-------|
+| **AI Agent for Autonomous Optical Networks: Architectures, Technologies, and Prospects** | 2026 | **JOCN** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://opg.optica.org/jocn/abstract.cfm?uri=jocn-18-2-A159) |
 | CBA: Communication-Bound-Aware Cross-Domain Resource Assignment for Pipeline-Parallel Distributed LLM Training in Dynamic Multi-DC Optical Networks | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2512.20080) |
 | LLM-Based Agent for QoT Estimation and Performance Optimization | 2025 | IEEE OJCOMS | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/OJCOMS.2025.3608290) |
 | Optical Network Diagnostics Using GNN and NLP | 2023 | OFC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/OFC49934.2023.10117074) |
