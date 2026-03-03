@@ -325,6 +325,7 @@
 | Title | Year | Venue | Links |
 |-------|------|-------|-------|
 | Leveraging Digital Twin Technologies: All-Photonics Networks-as-a-Service for Data Center Xchange in the Era of AI | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.10153) |
+| Optical Network Digital Twin – Commercialization Barriers, Value Proposition, Early Use Cases, and Challenges | 2025 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2511.06368) |
 
 ---
 
