@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-84+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-86+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&color=purple" alt="Last Commit">
@@ -99,6 +99,7 @@
 
 | Title | Venue | AI Method | Links |
 |-------|-------|-----------|-------|
+| Physics-Informed Machine Learning for EDFA: Parameter Identification and Gain Estimation | arXiv | **Physics-Informed ML** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2502.15144) |
 | Design and Evaluation of an LLM-Based Agent for QoT Estimation and Performance Optimization | IEEE OJCOMS | **LLM Agent** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/OJCOMS.2025.3608290) |
 | QoT Estimation with Margin-Driven Transfer Learning in Time-Varying Optical Networks | OFC | **Transfer Learning** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/11047188) |
 
@@ -233,6 +234,7 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| Block LMS Method for Fiber Longitudinal Power Profile Monitoring | 2026 | **JLT** | **Adaptive Filtering** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.01604) |
 | Online Learning-Based Concept Drift Adaptation for Failure Detection in Optical Networks | 2026 | **OFC 2026** | **Online Learning** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.10401) |
 
 </details>
