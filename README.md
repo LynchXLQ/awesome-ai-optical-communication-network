@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-86+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-89+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&color=purple" alt="Last Commit">
@@ -203,6 +203,7 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| A Transformer-Based Approach for Diagnosing Fault Cases in Optical Fiber Amplifiers | 2025 | arXiv | **Transformer (ITST)** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2505.06245) |
 | Transformer-Based Precoding for User-Centric Network Massive MIMO OWC | 2025 | IEEE Access | **Transformer** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ACCESS.2025.3646268) |
 | DenseNet-Transformer: spatial-temporal traffic prediction in optical fronthaul network | 2024 | Comput. Networks | **DenseNet-Transformer** | [![Paper](https://img.shields.io/badge/Paper-Elsevier-yellow)](https://doi.org/10.1016/j.comnet.2024.110674) |
 | AlarmGPT: an intelligent alarm analyzer for optical networks using GPT | 2024 | JOCN | **GPT/LLM** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.521913) |
@@ -244,6 +245,7 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| From Data to Decision: A Multi-Stage Framework for Class Imbalance Mitigation in Optical Network Failure Analysis | 2025 | arXiv | **Imbalance Mitigation** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2509.00057) |
 | Soft failure detection and identification using cascaded deep learning model | 2025 | Comput. Networks | **Cascaded DL** | [![Paper](https://img.shields.io/badge/Paper-Elsevier-yellow)](https://doi.org/10.1016/j.comnet.2025.111159) |
 | Dynamic network-aware soft failure localization using ML | 2025 | JOCN | **ML Classification** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.564177) |
 | Optimizing Deep Learning-Based Failure Management by Monitoring Neural Activity | 2024 | ONDM | **DL + Monitoring** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/ONDM61578.2024.10582707) |
@@ -299,6 +301,7 @@
 
 | Title | Year | Venue | Links |
 |-------|------|-------|-------|
+| Generalized Few-Shot Transfer Learning Architecture for Modeling the EDFA Gain Spectrum | 2025 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2507.21728) |
 | QoT Estimation with Margin-Driven Transfer Learning | 2025 | OFC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/11047188) |
 | Knowledge Distillation and Transfer Learning for QoT-Estimation | 2024 | IEEE Access | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ACCESS.2024.3485999) |
 | Domain adversarial adaptation for few-shot QoT estimation | 2024 | JOCN | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://doi.org/10.1364/JOCN.530915) |
