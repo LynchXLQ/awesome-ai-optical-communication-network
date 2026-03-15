@@ -287,6 +287,7 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| Neural Probabilistic Amplitude Shaping for Nonlinear Fiber Channels | 2026 | OFC | **Neural PAS** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.02716) |
 | Underwater Wireless Optical Communication: Hybrid Autoencoder and GAN | 2023 | IEEE TWC | **AE + GAN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TWC.2023.3243212) |
 | End-to-End Deep Learning of Long-Haul Coherent Optical via Perturbation | 2021 | ECOC | **DNN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ECOC52684.2021.9605928) |
 | Experimental Investigation of DL for DSP in Short Reach Optical | 2020 | SiPS | **DNN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/SiPS50750.2020.9195215) |
