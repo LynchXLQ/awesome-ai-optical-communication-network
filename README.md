@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-92+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-93+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&color=purple" alt="Last Commit">
@@ -327,6 +327,7 @@
 
 | Title | Year | Venue | Links |
 |-------|------|-------|-------|
+| **Large Language Models for Optical Network O&M: Agent-Embedded Workflow for Automation** | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.11828) |
 | **AgentOptics: Agentic AI for Scalable and Robust Optical Systems Control** | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.20144) |
 | **AI Agent for Autonomous Optical Networks: Architectures, Technologies, and Prospects** | 2026 | **JOCN** | [![Paper](https://img.shields.io/badge/Paper-OSA-orange)](https://opg.optica.org/jocn/abstract.cfm?uri=jocn-18-2-A159) |
 | CBA: Communication-Bound-Aware Cross-Domain Resource Assignment for Pipeline-Parallel Distributed LLM Training in Dynamic Multi-DC Optical Networks | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2512.20080) |
