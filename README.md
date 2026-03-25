@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-93+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-97+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-optical-communication-network?style=flat-square&color=purple" alt="Last Commit">
@@ -297,6 +297,10 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| Low-Complexity Neural Network Equalization for Long-Haul Coherent Transmission with Cascaded SOAs | 2026 | arXiv | **NN Equalization** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.20138) |
+| Nonlinearity Compensation for Coherent Optical Satellite Communications | 2026 | arXiv | **DSP + Shaping** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.08422) |
+| Optical Communications with Relative Intensity Noise: Channel Modeling and Information Rates | 2026 | arXiv | **Info Theory** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.08411) |
+| Inverse Design of a Spatial Demultiplexer for Free-Space Optical Communications | 2026 | arXiv | **Inverse Design + SGD** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.18760) |
 | Neural Probabilistic Amplitude Shaping for Nonlinear Fiber Channels | 2026 | OFC | **Neural PAS** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.02716) |
 | Underwater Wireless Optical Communication: Hybrid Autoencoder and GAN | 2023 | IEEE TWC | **AE + GAN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TWC.2023.3243212) |
 | End-to-End Deep Learning of Long-Haul Coherent Optical via Perturbation | 2021 | ECOC | **DNN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ECOC52684.2021.9605928) |
